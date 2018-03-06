@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#34515e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fairouz_cat">#26a69a</color>
+    <color name="adele_cat">#9fa8da</color>
+    <color name="relax_cat">#bcaaa4</color>
+
+</resources>

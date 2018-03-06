@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.muz.MainActivity"
+    android:orientation="vertical">
+
+<FrameLayout
+    style="@style/frame_layout"
+    android:background="@color/fairouz_cat">
+    <TextView
+        android:id="@+id/fayrouz_text"
+        android:text="@string/fayrouz"
+        style="@style/main_text" />
+</FrameLayout>
+
+<FrameLayout
+    style="@style/frame_layout"
+    android:background="@color/adele_cat">
+
+    <TextView
+        android:id="@+id/adele_text"
+        android:text="@string/adele"
+        style="@style/main_text"
+        />
+</FrameLayout>
+
+
+
+    <FrameLayout
+        android:background="@color/relax_cat"
+        style="@style/frame_layout">
+
+        <TextView
+            android:id="@+id/relax_text"
+            android:text="@string/relaxing"
+            style="@style/main_text"  />
+    </FrameLayout>
+
+
+</LinearLayout>

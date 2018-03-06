@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">muz</string>
+    <string name="music_app">MUZICA</string>
+    <string name="adele">Adele</string>
+    <string name="fayrouz">Fayrouz</string>
+    <string name="other">Other</string>
+    <string name="relaxing">Relaxing Music</string>
+    <string name="placeholder">place holder</string>
+    <string name="paused">paused</string>
+    <string name="playing">playing...</string>
+    <string name="stopped">song stopped</string>
+</resources>
