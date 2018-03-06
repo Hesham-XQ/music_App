@@ -6,24 +6,35 @@ package com.example.android.muz;
 
 public class music {
 
-    private String mSong ;
-    private String mArtist ;
-    private int mResourceId ;
-    private int mimgResourceId ;
+    private String mSong;
+    private String mArtist;
+    private int mResourceId;
+    private int mimgResourceId;
 
-public music (String Song , String Artist , int ResourceId , int imgResourceId  ) {
+    public music(String Song, String Artist, int ResourceId, int imgResourceId) {
 
-    mSong = Song ;
-    mArtist = Artist ;
-    mResourceId = ResourceId ;
-    mimgResourceId = imgResourceId ;
+        mSong = Song;
+        mArtist = Artist;
+        mResourceId = ResourceId;
+        mimgResourceId = imgResourceId;
 
-}
+    }
 
-    public String getSong () { return mSong ;}
-    public String getArtist () { return mArtist ;}
-    public int getResourceid () { return mResourceId ;}
-    public int getMimgResourceId () {return mimgResourceId ;}
+    public String getSong() {
+        return mSong;
+    }
+
+    public String getArtist() {
+        return mArtist;
+    }
+
+    public int getResourceid() {
+        return mResourceId;
+    }
+
+    public int getMimgResourceId() {
+        return mimgResourceId;
+    }
 
 
 }

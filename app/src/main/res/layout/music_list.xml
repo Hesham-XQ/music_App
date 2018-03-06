@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
 <ListView
     android:id="@+id/list"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 </ListView>
+
+    <LinearLayout
+        android:layout_alignBottom="@id/list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_h_w_90"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+     >
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/bellow_buttons"
+            android:text="@string/placeholder"
+            android:layout_gravity="center"
+          />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/button2"
+            style="@style/bellow_buttons"
+            android:text="@string/placeholder"
+     />
+
+    </LinearLayout>
+
+</RelativeLayout>

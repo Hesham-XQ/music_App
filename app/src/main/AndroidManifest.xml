@@ -20,17 +20,32 @@
 
         <activity android:name=".activity_fayrouz"
             android:configChanges="orientation|screenSize"
-            android:label="@string/fayrouz">
+            android:label="@string/fayrouz"
+            android:parentActivityName=".MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
 
         <activity android:name=".adele"
             android:configChanges="orientation|screenSize"
-            android:label="@string/adele">
+            android:label="@string/adele"
+            android:parentActivityName=".MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
 
         <activity android:name=".relax"
             android:configChanges="orientation|screenSize"
-            android:label="@string/relaxing">
+            android:label="@string/relaxing"
+            android:parentActivityName=".MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
 
 
