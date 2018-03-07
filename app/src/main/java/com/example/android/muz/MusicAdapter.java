@@ -19,12 +19,12 @@ import java.util.ArrayList;
  */
 
 
-public class musicAdapter extends ArrayAdapter {
+public class MusicAdapter extends ArrayAdapter {
     private MediaPlayer mp;
     private AudioManager mAudioManager;
     private int mColorResourceId;
 
-    public musicAdapter(Context context, ArrayList<music> pMusic, int colorResourceID) {
+    public MusicAdapter(Context context, ArrayList<Music> pMusic, int colorResourceID) {
         super(context, 0, pMusic);
         mColorResourceId = colorResourceID;
     }
@@ -37,7 +37,7 @@ public class musicAdapter extends ArrayAdapter {
                     R.layout.list_item, parent, false);
         }
 
-        final music my_music = (music) getItem(position);
+        final Music my_music = (Music) getItem(position);
         TextView songTitle = (TextView) listItemView.findViewById(R.id.song);
         songTitle.setText(my_music.getSong());
         TextView artistTitle = (TextView) listItemView.findViewById(R.id.artist);

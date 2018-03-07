@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link NumbersActivity}
-                Intent fayrouzIntent = new Intent(MainActivity.this, activity_fayrouz.class);
+                Intent fayrouzIntent = new Intent(MainActivity.this, Fayrouz.class);
 
                 // Start the new activity
                 startActivity(fayrouzIntent);
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent adeleIntent = new Intent(MainActivity.this, adele.class);
+                Intent adeleIntent = new Intent(MainActivity.this, Adele.class);
 
                 startActivity(adeleIntent);
             }
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link NumbersActivity}
-                Intent relaxIntent = new Intent(MainActivity.this, relax.class);
+                Intent relaxIntent = new Intent(MainActivity.this, Relax.class);
 
                 // Start the new activity
                 startActivity(relaxIntent);

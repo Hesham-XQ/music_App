@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * Created by SAMO on 3/5/2018.
  */
 
-public class adele extends AppCompatActivity {
+public class Relax extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,12 +24,12 @@ public class adele extends AppCompatActivity {
         Button activity2 = (Button) findViewById(R.id.button2);
 
         activity1.setText(R.string.fayrouz);
-        activity2.setText(R.string.relax);
+        activity2.setText(R.string.adele);
 
         activity1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent fayrouzIntent = new Intent(adele.this, activity_fayrouz.class);
+                Intent fayrouzIntent = new Intent(Relax.this, Fayrouz.class);
 
                 startActivity(fayrouzIntent);
             }
@@ -38,20 +38,21 @@ public class adele extends AppCompatActivity {
         activity2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent relaxIntent = new Intent(adele.this, relax.class);
+                Intent adeleIntent = new Intent(Relax.this, Adele.class);
 
-                startActivity(relaxIntent);
+                startActivity(adeleIntent);
             }
         });
 
-        final ArrayList<music> musics = new ArrayList<>();
-        musics.add(new music("Hello", "Adele", R.raw.hello, R.drawable.adele));
-        musics.add(new music("Set fire to the rain", "Adele", R.raw.set_fire_to_the_rain, R.drawable.adele));
-        musics.add(new music("Rolling in the deeb", "Adele", R.raw.rolling, R.drawable.adele));
+        final ArrayList<Music> musics = new ArrayList<>();
+        musics.add(new Music("Play", "Other", R.raw.play, R.drawable.music));
+        musics.add(new Music("Deep relaxation", "Other", R.raw.deep_relaxation, R.drawable.music));
+        musics.add(new Music("Classic", "Other", R.raw.classic, R.drawable.music));
 
-        musicAdapter adapter = new musicAdapter(this, musics, R.color.adele_cat);
+        MusicAdapter adapter = new MusicAdapter(this, musics, R.color.relax_cat);
         final ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
+
 
     }
 }

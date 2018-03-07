@@ -10,4 +10,8 @@
     <string name="paused">paused</string>
     <string name="playing">playing...</string>
     <string name="stopped">song stopped</string>
+    <string name="stop_descreption">Stop Button</string>
+    <string name="play_descreption">Play Button</string>
+    <string name="Restart_descreption">Restart Button</string>
+    <string name="Artist_image">Artist Image</string>
 </resources>

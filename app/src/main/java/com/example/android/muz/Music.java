@@ -4,14 +4,14 @@ package com.example.android.muz;
  * Created by SAMO on 3/1/2018.
  */
 
-public class music {
+public class Music {
 
     private String mSong;
     private String mArtist;
     private int mResourceId;
     private int mimgResourceId;
 
-    public music(String Song, String Artist, int ResourceId, int imgResourceId) {
+    public Music(String Song, String Artist, int ResourceId, int imgResourceId) {
 
         mSong = Song;
         mArtist = Artist;

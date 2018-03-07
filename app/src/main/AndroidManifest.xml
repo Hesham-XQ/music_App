@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity_fayrouz"
+        <activity android:name=".Fayrouz"
             android:configChanges="orientation|screenSize"
             android:label="@string/fayrouz"
             android:parentActivityName=".MainActivity" >
@@ -28,7 +28,7 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity android:name=".adele"
+        <activity android:name=".Adele"
             android:configChanges="orientation|screenSize"
             android:label="@string/adele"
             android:parentActivityName=".MainActivity" >
@@ -38,7 +38,7 @@
                 android:value=".MainActivity" />
         </activity>
 
-        <activity android:name=".relax"
+        <activity android:name=".Relax"
             android:configChanges="orientation|screenSize"
             android:label="@string/relaxing"
             android:parentActivityName=".MainActivity" >
